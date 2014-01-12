@@ -1,10 +1,10 @@
 {
-    "name":"gs-ui-build-utils",
-    "version":"1.0.0",
-    "description":"build tools for gs ui team",
-    "dependencies":{
-        "ssh2":"*",
-        "log4js":"*"
-    },
-    "main":"./lib/gsui.js"
+  "name": "gs-ui-build-utils",
+  "version": "1.0.0",
+  "description": "build tools for gs ui team",
+  "dependencies": {
+    "ssh2": "~0.2.16",
+    "log4js": "*"
+  },
+  "main": "./lib/gsui.js"
 }
