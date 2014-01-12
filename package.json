@@ -3,10 +3,11 @@
     "version":"1.0.0",
     "description":"build tools for gs ui team",
     "bin":{
-        "gsuissh":"ssh.js"
+        "gsuissh":"lib/ssh.js"
     },
     "dependencies":{
         "ssh2":"*",
         "log4js":"*"
-    }
+    },
+    "main":"./lib/gsui.js"
 }
